@@ -1102,6 +1102,17 @@ button:focus {
    transition: all 0.3s;
 }
 
+.prt__portfolio--img img:hover {
+   transform: scale(1.1);
+}
+
+.prt__portfolio--img:hover .prt__portfolio--text {
+   bottom: 0px;
+   width: 100%;
+   background-color: rgba(255, 255, 255, 0.5);
+   height: 100%;
+}
+
 /* !media */
 @media (min-width: 992px) and (max-width: 1199px) {
    .prt-home-wrapper h1 {
