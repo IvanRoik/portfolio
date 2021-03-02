@@ -1102,15 +1102,19 @@ button:focus {
    transition: all 0.3s;
 }
 
-.prt__portfolio--img img:hover {
+.prt__portfolio--img:hover img {
+   display: inline-block;
    transform: scale(1.1);
+   transition: all 0.3s;
 }
-
 .prt__portfolio--img:hover .prt__portfolio--text {
-   bottom: 0px;
-   width: 100%;
-   background-color: rgba(255, 255, 255, 0.5);
-   height: 100%;
+   bottom: 0;
+   transition: all 0.3s;
+}
+.prt__portfolio--img:hover:after {
+   opacity: 1;
+   visibility: visible;
+   transition: all 0.3s;
 }
 
 /* !media */
